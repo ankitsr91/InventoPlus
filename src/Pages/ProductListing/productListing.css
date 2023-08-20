@@ -1,0 +1,35 @@
+.all-products {
+  margin: auto;
+}
+
+.single-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  cursor: pointer;
+}
+.single-product th {
+  padding: 0 0 0 1rem;
+}
+.single-product td {
+  padding: 0.5rem;
+}
+.single-product img {
+  width: 200px;
+}
+
+select {
+  padding: 0.3rem;
+  border-radius: 5px;
+  margin: 0 2rem;
+}
+button {
+  background-color: navy;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
